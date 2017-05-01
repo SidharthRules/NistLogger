@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:padding="5dp"
+    android:layout_height="250dp">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/calllist"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Call Now"
+        android:id="@+id/callbutton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
